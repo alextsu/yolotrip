@@ -24,3 +24,4 @@ Why are you waiting any longer – download the app and make your first Yolotrip
 
 Note:
 Application uses Objective-C Yelp API found here: https://github.com/Yelp/yelp-api/tree/master/v2/objective-c
+It was a class project at the University of Chicago.
