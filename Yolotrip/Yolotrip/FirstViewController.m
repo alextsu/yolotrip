@@ -44,8 +44,8 @@
     self.locationManager.delegate = self;
     
     // Ask for permission (only one)
-    //[self.locationManager requestWhenInUseAuthorization];
-    [self.locationManager requestAlwaysAuthorization];
+    [self.locationManager requestWhenInUseAuthorization];
+    //[self.locationManager requestAlwaysAuthorization];
     
     
     

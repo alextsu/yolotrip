@@ -59,9 +59,13 @@
     
     //Set text fields
     self.yelpLink = [self.displayedLocation objectForKey:@"mobile_url"];
+    
     self.nameOfResult.text = [self.displayedLocation objectForKey:@"name"];
     self.userQuote.text =[self.displayedLocation objectForKey:@"snippet_text"];
-    self.type.text = [self.displayedLocation objectForKey:@"display_phone"];
+    
+    NSArray * resultArray = [self.displayedLocation objectForKey:@"categories"];
+    //NSLog(@"Result Array: %@", resultArray[0][0]);
+    self.type.text = resultArray[0][0];
     
     //Display location image
     NSString *ImageURL = [self.displayedLocation objectForKey:@"image_url"];

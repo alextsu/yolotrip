@@ -36,7 +36,10 @@
     self.yelpLink = [self.displayedResult objectForKey:@"mobile_url"];
     self.nameOfResult.text = [self.displayedResult objectForKey:@"name"];
     self.userQuote.text =[self.displayedResult objectForKey:@"snippet_text"];
-    self.type.text = [self.displayedResult objectForKey:@"display_phone"];
+    
+    NSArray * resultArray = [self.displayedResult objectForKey:@"categories"];
+    self.type.text = resultArray[0][0];
+    //self.type.text = [self.displayedResult objectForKey:@"display_phone"];
     
 }
 
