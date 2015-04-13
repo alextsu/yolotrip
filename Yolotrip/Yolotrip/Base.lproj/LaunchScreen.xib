@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7528.3" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7518.3"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <objects>
@@ -37,6 +37,7 @@
                     <rect key="frame" x="41" y="385" width="292" height="87"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="292" id="4P7-gh-wyE"/>
+                        <constraint firstAttribute="width" secondItem="4Ib-qP-d64" secondAttribute="height" multiplier="292:87" id="RL7-ak-Rhy"/>
                         <constraint firstAttribute="height" constant="87" id="VeQ-Nx-VvW"/>
                         <constraint firstAttribute="width" constant="292" id="bp5-bA-Tk9"/>
                         <constraint firstAttribute="height" constant="87" id="d9s-zw-utX"/>
@@ -48,6 +49,7 @@
                             <exclude reference="VeQ-Nx-VvW"/>
                             <exclude reference="bp5-bA-Tk9"/>
                             <exclude reference="o0Y-7V-6sq"/>
+                            <exclude reference="xiP-pg-JeT"/>
                         </mask>
                     </variation>
                     <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
@@ -65,6 +67,7 @@
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstAttribute="centerX" secondItem="4Ib-qP-d64" secondAttribute="centerX" id="9Jb-gb-nau"/>
+                <constraint firstAttribute="centerX" secondItem="4Ib-qP-d64" secondAttribute="centerX" id="Ayc-Hk-BlF"/>
                 <constraint firstItem="eYU-rg-nYx" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="175" id="Fiv-Eu-Epq"/>
                 <constraint firstItem="4Ib-qP-d64" firstAttribute="top" secondItem="eYU-rg-nYx" secondAttribute="bottom" constant="8" id="N0H-mJ-p1G"/>
                 <constraint firstAttribute="trailing" secondItem="eYU-rg-nYx" secondAttribute="trailing" constant="77" id="PCn-jo-B7e"/>
@@ -90,7 +93,9 @@
                     <exclude reference="yFU-Xt-7Z6"/>
                     <exclude reference="9Jb-gb-nau"/>
                     <exclude reference="N0H-mJ-p1G"/>
+                    <exclude reference="XNg-dJ-H94"/>
                     <exclude reference="ePB-fb-vzg"/>
+                    <exclude reference="hW2-S6-bb4"/>
                     <exclude reference="pOv-Gk-o68"/>
                     <exclude reference="PTc-Yu-sOE"/>
                 </mask>
