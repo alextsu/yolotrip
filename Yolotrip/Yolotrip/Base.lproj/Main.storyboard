@@ -647,6 +647,7 @@
                             <constraint firstItem="2rM-ef-nxU" firstAttribute="top" secondItem="0Hv-6A-FpK" secondAttribute="bottom" constant="28" id="A8k-bO-LKH"/>
                             <constraint firstItem="W90-wt-DXy" firstAttribute="leading" secondItem="2rM-ef-nxU" secondAttribute="leading" id="CZB-kg-1cm"/>
                             <constraint firstItem="yMz-vg-Sbf" firstAttribute="top" secondItem="0Hv-6A-FpK" secondAttribute="bottom" constant="8" symbolic="YES" id="Cfh-8h-RNe"/>
+                            <constraint firstItem="W90-wt-DXy" firstAttribute="top" secondItem="A7X-yr-EEO" secondAttribute="bottom" constant="68" id="HFz-PE-PZf"/>
                             <constraint firstItem="1k5-9T-RXV" firstAttribute="centerX" secondItem="2rM-ef-nxU" secondAttribute="centerX" id="JyN-61-IMI"/>
                             <constraint firstItem="0Hv-6A-FpK" firstAttribute="centerX" secondItem="2rM-ef-nxU" secondAttribute="centerX" id="Jz9-1c-7PO"/>
                             <constraint firstItem="R2C-Ux-Fow" firstAttribute="top" secondItem="1k5-9T-RXV" secondAttribute="bottom" constant="6" id="NyF-AE-Sli"/>
@@ -660,7 +661,14 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
+                                <exclude reference="HFz-PE-PZf"/>
                                 <exclude reference="Ygu-0j-1XU"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="HFz-PE-PZf"/>
+                                <exclude reference="xcK-em-FNh"/>
                             </mask>
                         </variation>
                     </view>
